@@ -1,0 +1,317 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.header
+{
+    background-color: #081b31;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+}
+.choices
+{
+    display: flex;/* it is used to keep items of div in one line*/
+    justify-content: center;/*it is uded keep items in center*/
+    align-items: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+.choice
+{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice:hover
+{
+    cursor: pointer;
+    background-color: #081b31;
+}
+img
+{
+  height: 150px;
+  width: 150px; 
+  object-fit: cover;/* it is used to display img properly after adjusting their size*/
+  border-radius: 50%;
+}
+
+.name-bord
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    gap: 13rem;
+}
+#user-score,#comp-score
+{
+    font-size: 6rem;
+    margin-top: 2rem;
+}
+.name
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+   
+   
+}
+.dis1
+{
+    height: 200px;
+    width: 200px;
+    margin-left: -35px;
+}
+.dis2
+{
+    height: 200px;
+    width: 200px;
+}
+.display
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 5rem;
+}
+.mssg-container
+{
+    margin-top: 2rem;
+}
+#mssg
+{
+    background-color: #081b31;
+    color: white;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+#s1,#s2
+{
+    font-size: 2rem;
+    background-color: #081b31;
+    color: white;
+}
+.foot
+{
+    background-color: #081b31;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+@media (max-width:600px)
+{
+    .msg-container
+{
+    margin-top: 4rem;
+}
+
+#msg
+{
+   
+    background-color: #081b31;
+    color: #fff;
+    font-size: 1rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.display
+{
+    gap: 2rem;
+    margin-left: -5rem;
+}
+.dis1
+{
+    height: 150px;
+    width: 150px;
+}
+.dis2
+{
+    height: 150px;
+    width: 150px;
+}
+#name-value
+{
+    font-size: 2rem;
+    color: green;
+}  
+img
+{
+    height: 150px;
+    width: 150px;
+    object-fit: cover; /*It is for fit image or img display properly*/
+    border-radius: 50%;
+}
+
+.choices
+{
+    display: flex; /* It is for display the imges in one line */
+    justify-content: center; /* for didplay inline imgs in center*/
+    align-items: center;
+    gap: 1rem;
+    margin-top: 5rem;
+}
+
+
+.score-board
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 4rem;
+}
+
+#user-score,#comp-score
+{
+    font-size: 6rem;
+}
+
+
+.choice
+{
+    height: 119px;
+    width: 119px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover
+{
+     cursor: pointer;
+     background-color: #081b31;
+}
+
+#foot
+{
+    background-color: #081b31;
+    color: #fff;
+    height: 5rem;
+    line-height: 5rem;
+    margin-top: 11rem;
+}    
+
+}
+
+@media (max-width:700px)
+{
+.header
+{
+    margin-right: 6rem;
+}
+.name-bord
+{
+    gap: 9rem;
+    margin-right: 8rem;
+}    
+
+#foot
+{
+    background-color: #081b31;
+    color: #fff;
+    height: 5rem;
+    line-height: 5rem;
+    margin-top: 11rem;
+}  
+
+.display
+{
+    gap: 2rem;
+    margin-left: -7rem;
+}
+.dis1
+{
+    height: 190px;
+    width: 190px;
+}
+.dis2
+{
+    height: 190px;
+    width: 190px;
+
+        .msg-container    
+}
+
+#msg
+{
+   
+    background-color: #081b31;
+    color: #fff;
+    font-size: 1rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-left: -1rem;
+}
+
+#name-value
+{
+    font-size: 2rem;
+    color: green;
+}  
+img
+{
+    height: 100px;
+    width: 100px;
+    object-fit: cover; /*It is for fit image or img display properly*/
+    border-radius: 50%;
+}
+
+.choices
+{
+    display: flex; /* It is for display the imges in one line */
+    justify-content: center; /* for didplay inline imgs in center*/
+    align-items: center;
+    gap: 1rem;
+    margin-top: 5rem;
+}
+
+
+.score-board
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 3rem;
+}
+
+#user-score,#comp-score
+{
+    font-size: 6rem;
+}
+
+
+.choice
+{
+    height: 119px;
+    width: 119px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover
+{
+     cursor: pointer;
+     background-color: #081b31;
+}
+}
+}
